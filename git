@@ -1,0 +1,9 @@
+ls -a
+git init
+git status
+git add proposal1/git add .
+git commit -m "start status"
+git diff proposal1   //see the updates
+git checkout proposal1  //rollback to the previous version
+git remote add origin https://github.com/wangtingting217/test.git
+git push -u origin main
